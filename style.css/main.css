@@ -1,0 +1,153 @@
+*,
+::before,
+::after{
+    box-sizing:border-box;
+}
+
+body{
+    background-color: #F7CD75;
+}
+
+.container{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right:15px;
+}
+
+.visa-scroll{
+    display: flex;
+    margin-top: 200px;
+    height: 375px;
+    background-color:white;
+    box-shadow:4px 4px 14px black;
+}
+
+.left{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 306px;
+    height:375px;
+    background-color: #F2F2F2;
+    overflow-y: scroll;
+}
+
+.left1{
+    display: flex;
+    justify-content: space-between;
+    width: 230px;
+}
+
+.right{
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 550px;
+    height:375px;
+    background-color: #ffffff;
+    overflow-y: scroll;
+}
+
+.right2{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 430px;
+    height: 80px;
+    background-color: #ffffff;
+    box-shadow: 0px 3px  #EEEEEE;
+    margin-bottom: 10px;
+}
+
+.plus2{
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+.minus2{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-right: 15px;
+    border: 2px solid #EEEEEE;
+    border-radius: 50%;
+}
+
+.VISA{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 105px;
+    border: 2px solid #DEDEDE;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+.master-card{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 105px;
+    border: 2px solid #8793C6;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+.VISA{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 105px;
+    border: 2px solid #DEDEDE;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+.num-card{
+    align-items: center;
+    width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.button{
+    border: none;
+}
+
+.data-activity{
+    width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.histories{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    font-size: 16px;
+    justify-content: space-between;
+}
+
+.pay-history{
+    display: flex;
+    width: 435px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pay-history1{
+    display: flex;
+    width: 435px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.value{
+    color: #8797C6;
+}
+
+.value2{
+    color: #91D068;
+}
